@@ -3,12 +3,14 @@
 
 //==============================================================================
 AudioPluginAudioProcessorEditor::AudioPluginAudioProcessorEditor (AudioPluginAudioProcessor& p)
-    : AudioProcessorEditor (&p), processorRef (p), dialDriveAttachment(processorRef.state, ParameterConfig::driveParamID.getParamID(), dialDrive)
+    : AudioProcessorEditor (&p), processorRef (p), dialAttitudeAttachment(processorRef.state, ParameterConfig::attitudeParamID.getParamID(), dialAttitude),
+                                 dialDriveAttachment(processorRef.state, ParameterConfig::driveParamID.getParamID(), dialAttitude),
+                                 dialWidthAttachment(processorRef.state, ParameterConfig::widthParamID.getParamID(), dialAttitude)
 {
     juce::ignoreUnused (processorRef);
-    dialDrive.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
-    dialDrive.setTextBoxStyle(juce::Slider::TextEntryBoxPosition::TextBoxBelow, false, GUIConfig::textboxWidth, GUIConfig::textboxHeight);
-    addAndMakeVisible(dialDrive);
+    dialAttitude.setSliderStyle(juce::Slider::SliderStyle::RotaryHorizontalVerticalDrag);
+    dialAttitude.setTextBoxStyle(juce::Slider::TextEntryBoxPosition::TextBoxBelow, false, GUIConfig::textboxWidth, GUIConfig::textboxHeight);
+    addAndMakeVisible(dialAttitude);
 
     setSize (GUIConfig::windowWidth, GUIConfig::windowHeight);
 }
@@ -30,6 +32,6 @@ void AudioPluginAudioProcessorEditor::paint (juce::Graphics& g)
 void AudioPluginAudioProcessorEditor::resized()
 {
     const juce::Rectangle<int> bounds = getLocalBounds();
-    dialDrive.setBounds(bounds.getCentreX() - GUIConfig::dialWidth / 2, bounds.getCentreY() - GUIConfig::dialHeight / 2,
+    dialAttitude.setBounds(bounds.getCentreX() - GUIConfig::dialWidth / 2, bounds.getCentreY() - GUIConfig::dialHeight / 2,
         GUIConfig::dialWidth, GUIConfig::dialHeight);
 }
