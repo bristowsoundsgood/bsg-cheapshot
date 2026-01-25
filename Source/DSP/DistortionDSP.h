@@ -16,7 +16,8 @@ public:
 private:
     float m_drive {  };
     float m_minDrive { 0.0f };
-    float m_maxDrive { 0.04f };
+    float m_maxDrive { 0.019f };
+    float standardCircleMap(float x) const;
 };
 
 

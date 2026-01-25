@@ -26,8 +26,15 @@ void DistortionDSP::processBlock(float* channelData, const int numSamples) const
     {
         const float xn { channelData[i] };
 
-        // distortion equation (circle map)
-        const float yn { xn + m_drive / 2 * juce::MathConstants<float>::twoPi * std::sin(juce::MathConstants<float>::twoPi * xn) };
+        // distortion equation
+        const float yn = standardCircleMap(xn);
         channelData[i] = yn;
     }
 }
+
+float DistortionDSP::standardCircleMap(const float x) const
+{
+    const float y { x + m_drive / 2 * juce::MathConstants<float>::twoPi * std::sin(juce::MathConstants<float>::twoPi * x) };
+    return y;
+}
+
