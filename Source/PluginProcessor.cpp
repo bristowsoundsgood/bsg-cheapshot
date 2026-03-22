@@ -122,13 +122,15 @@ bool AudioPluginAudioProcessor::isBusesLayoutSupported (const BusesLayout& layou
   #endif
 }
 
+// TODO -> envelope sustain at higher levels
+// TODO -> soft clip -> hard clip -> hard clip w. post processing after clip stage (e.g., expansion, compression)
 void AudioPluginAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer,
                                               juce::MidiBuffer& midiMessages)
 {
     juce::ignoreUnused (midiMessages);
-
     juce::ScopedNoDenormals noDenormals;
-    const auto totalNumInputChannels  = getTotalNumInputChannels();
+
+    const auto totalNumInputChannels = getTotalNumInputChannels();
     const auto totalNumOutputChannels = getTotalNumOutputChannels();
     const auto totalNumSamples = buffer.getNumSamples();
 
@@ -140,20 +142,22 @@ void AudioPluginAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer,
     const float widthParam { params.getStereoWidth() };
     stereoWidthDSP.setWidth(widthParam);
 
-    // Stereo-linked widening
-    stereoWidthDSP.processBlock(buffer, totalNumSamples);
     // Dual-mono distortion
     for (int channel = 0; channel < totalNumInputChannels; ++channel)
     {
-        float* channelData = buffer.getWritePointer (channel);
-        distortionDSP.processBlock(channelData, buffer.getNumSamples());
+        float* channelData = buffer.getWritePointer(channel);
+        // distortionDSP.processBlock(channelData, buffer.getNumSamples());
+        clipDSP.processBlock(channelData, buffer.getNumSamples());
     }
+
+    // Stereo-linked widening
+    stereoWidthDSP.processBlock(buffer, totalNumSamples);
 }
 
 //==============================================================================
 bool AudioPluginAudioProcessor::hasEditor() const
 {
-    return true; // (change this to false if you choose to not supply an editor)
+    return true;
 }
 
 juce::AudioProcessorEditor* AudioPluginAudioProcessor::createEditor()

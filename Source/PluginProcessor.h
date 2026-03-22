@@ -4,6 +4,7 @@
 #include "PluginParameters.h"
 #include "DSP/DistortionDSP.h"
 #include "DSP/StereoWidthDSP.h"
+#include "DSP/ClipDSP.h"
 
 //==============================================================================
 class AudioPluginAudioProcessor final : public juce::AudioProcessor
@@ -50,6 +51,7 @@ private:
     PluginParameters params;
     DistortionDSP distortionDSP;
     StereoWidthDSP stereoWidthDSP;
+    ClipDSP clipDSP;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (AudioPluginAudioProcessor)
 };

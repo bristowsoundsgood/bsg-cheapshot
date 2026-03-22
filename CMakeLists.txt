@@ -39,6 +39,8 @@ set(SourceFiles
         Source/DSP/DistortionDSP.h
         Source/DSP/StereoWidthDSP.cpp
         Source/DSP/StereoWidthDSP.h
+        Source/DSP/ClipDSP.cpp
+        Source/DSP/ClipDSP.h
 )
 
 # Change these to your own preferences

@@ -2,14 +2,18 @@
 <project version="4">
   <component name="BackendCodeEditorSettings">
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CDeclarationWithImplicitIntType/@EntryIndexedValue" value="ERROR" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CommentTypo/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConstevalIfIsAlwaysConstant/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAbstractClassWithoutSpecifier/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAbstractFinalClass/@EntryIndexedValue" value="ERROR" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAbstractVirtualFunctionCallInCtor/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAccessSpecifierWithNoDeclarations/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppAwaiterTypeIsNotClass/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBooleanIncrementExpression/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatBadCode/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatLegacyCode/@EntryIndexedValue" value="ERROR" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatMixedArgs/@EntryIndexedValue" value="ERROR" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatTooFewArgs/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppBoostFormatTooManyArgs/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppCStyleCast/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppCVQualifierCanNotBeAppliedToReference/@EntryIndexedValue" value="ERROR" type="string" />
@@ -47,6 +51,7 @@
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclarationSpecifierWithoutDeclarators/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclaratorDisambiguatedAsFunction/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclaratorNeverUsed/@EntryIndexedValue" value="ERROR" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDeclaratorUsedBeforeInitialization/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDefaultCaseNotHandledInSwitchStatement/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDefaultInitializationWithNoUserConstructor/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDefaultIsUsedAsIdentifier/@EntryIndexedValue" value="ERROR" type="string" />
@@ -63,13 +68,22 @@
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDoxygenUndocumentedParameter/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppDoxygenUnresolvedReference/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEmptyDeclaration/@EntryIndexedValue" value="ERROR" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceCVQualifiersOrder/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceCVQualifiersPlacement/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceDoStatementBraces/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceForStatementBraces/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceFunctionDeclarationStyle/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceIfStatementBraces/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceNestedNamespacesStyle/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceOverridingDestructorStyle/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceOverridingFunctionStyle/@EntryIndexedValue" value="ERROR" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceTypeAliasCodeStyle/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnforceWhileStatementBraces/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEntityAssignedButNoRead/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEntityUsedOnlyInUnevaluatedContext/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEnumeratorNeverUsed/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEqualOperandsInBinaryExpression/@EntryIndexedValue" value="ERROR" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppEvaluationFailure/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppExplicitSpecializationInNonNamespaceScope/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppExpressionWithoutSideEffects/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFinalFunctionInFinalClass/@EntryIndexedValue" value="ERROR" type="string" />
@@ -134,8 +148,11 @@
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPossiblyErroneousEmptyStatements/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPossiblyUninitializedMember/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPossiblyUnintendedObjectSlicing/@EntryIndexedValue" value="ERROR" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrecompiledHeaderIsNotIncluded/@EntryIndexedValue" value="ERROR" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrecompiledHeaderNotFound/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrintfBadFormat/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrintfExtraArg/@EntryIndexedValue" value="ERROR" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrintfMissedArg/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrintfRiskyFormat/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppPrivateSpecialMemberFunctionIsNotImplemented/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRangeBasedForIncompatibleReference/@EntryIndexedValue" value="ERROR" type="string" />
@@ -172,12 +189,14 @@
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantVoidArgumentList/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRedundantZeroInitializerInAggregateInitialization/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppReinterpretCastFromVoidPtr/@EntryIndexedValue" value="ERROR" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppRemoveRedundantBraces/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppReplaceMemsetWithZeroInitialization/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppReplaceTieWithStructuredBinding/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppReturnNoValueInNonVoidFunction/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppSmartPointerVsMakeFunction/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppSomeObjectMembersMightNotBeInitialized/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppSpecialFunctionWithoutNoexceptSpecification/@EntryIndexedValue" value="ERROR" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppStaticAssertFailure/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppStaticDataMemberInUnnamedStruct/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppStaticSpecifierOnAnonymousNamespaceMember/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppStringLiteralToCharPointerConversion/@EntryIndexedValue" value="ERROR" type="string" />
@@ -220,7 +239,9 @@
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppWrongSlashesInIncludeDirective/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppZeroConstantCanBeReplacedWithNullptr/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppZeroValuedExpressionUsedAsNullPointer/@EntryIndexedValue" value="ERROR" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=IdentifierTypo/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=IfStdIsConstantEvaluatedCanBeReplaced/@EntryIndexedValue" value="ERROR" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=StdIsConstantEvaluatedWillAlwaysEvaluateToConstant/@EntryIndexedValue" value="ERROR" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=StringLiteralTypo/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
   </component>
 </project>
